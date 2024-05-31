@@ -1,0 +1,76 @@
+.code-block {
+    width: 100%;}
+h2{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    color: rgb(245, 233, 66);
+    text-decoration: underline;
+    text-decoration-color: black;}
+    .info{font-size: larger;color: aqua;}
+    .title{border:5px outset #5fc2f8;
+        background-color: rgb(7, 2, 3);
+        text-align: center;
+        text-emphasis: bold;
+        font-size: 40px;
+        color: rgb(245, 233, 66);
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 800;
+        text-decoration: underline;
+        text-decoration-color: white;}
+    .smtext{text-decoration: underline; 
+            font-size: small;}
+    .foot{text-align: center;
+            text-decoration-style: double;
+            color: #5fc2f8;
+            text-emphasis: bold;}
+    .flex-container {
+                display: flex; 
+                justify-content: space-around; 
+                align-items: center; 
+                padding: 5px; 
+                background: #5fc2f8; 
+              }
+            
+    .flex-item {
+                    background-color: rgb(245, 233, 66);
+                    border: 3px solid #0b0202 outset #5fc2f8 ; 
+                    padding: 20px; 
+                    margin: 10px; 
+                    text-decoration: underline;
+                    text-decoration-color: white;
+                    font-size: 20px;
+                    text-align: center;
+                    flex-grow: 1; }
+    body, html{
+                            margin: 0;
+                            padding: 0;
+                            height: 100%;}
+                        
+                        
+    body{
+                        
+                                    background-image: url('IMG_7293.jpg');
+                            
+                                    height: 100%;
+                                    
+                                    background-position: center;
+                                    background-repeat: no-repeat;
+                                    background-size: cover;
+                                    
+                                    position: relative
+                                    
+                                 }
+                        
+                        
+    .core{
+                            
+                                            position: relative;
+                                            
+                                            padding: 20px;
+                                            
+                                            color: rgb(243, 243, 243);}      
+    .container {
+                                                    width: 100%;
+                                                    max-width: 100%; 
+                                                    margin: 0 auto;
+                                                    padding: 0 20px;
+                                                } 
